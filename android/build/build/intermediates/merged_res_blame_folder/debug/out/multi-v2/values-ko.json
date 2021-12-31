@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\animeman\\Documents\\PlayServicesTutorial\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\animeman\\.gradle\\caches\\transforms-3\\7d496d812684c77fc04000caf95fd2e1\\transformed\\jetified-godot-lib.debug\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,181,246,298,357,410,459,518,605,686,767,829,884,946,1046,1139,1215,1310,1397,1489,1536,1586,1649,1705,1762,1828,1890,1999,2115,2201,2271,2332,2387",
+                        "endColumns": "58,66,64,51,58,52,48,58,86,80,80,61,54,61,99,92,75,94,86,91,46,49,62,55,56,65,61,108,115,85,69,60,54,63",
+                        "endOffsets": "109,176,241,293,352,405,454,513,600,681,762,824,879,941,1041,1134,1210,1305,1392,1484,1531,1581,1644,1700,1757,1823,1885,1994,2110,2196,2266,2327,2382,2446"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,43,44,45,46,47,48,49,50,51,52,53,54,55",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2616,2675,2742,2807,2859,2918,2971,3020,3079,3166,3247,3328,3390,3445,3507,3607,3700,3776,3871,3958,4050,4198,4248,4311,4367,4424,4490,4552,4661,4777,4863,4933,4994,5049",
+                        "endColumns": "58,66,64,51,58,52,48,58,86,80,80,61,54,61,99,92,75,94,86,91,46,49,62,55,56,65,61,108,115,85,69,60,54,63",
+                        "endOffsets": "2670,2737,2802,2854,2913,2966,3015,3074,3161,3242,3323,3385,3440,3502,3602,3695,3771,3866,3953,4045,4092,4243,4306,4362,4419,4485,4547,4656,4772,4858,4928,4989,5044,5108"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\animeman\\.gradle\\caches\\transforms-3\\c5eaa7d939abb2d757f863a6b5340cdd\\transformed\\core-1.2.0\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "42",
+                        "startColumns": "4",
+                        "startOffsets": "4097",
+                        "endColumns": "100",
+                        "endOffsets": "4193"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\animeman\\.gradle\\caches\\transforms-3\\7ab765d62e7f9e6e62f4ab650b67973e\\transformed\\jetified-play-services-base-17.4.0\\res\\values-ko\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,347,518,632,732,906,1021,1154,1274,1478,1579,1746,1862,2039,2184,2269,2353",
+                        "endColumns": "101,170,113,99,173,114,132,119,203,100,166,115,176,144,84,83,99",
+                        "endOffsets": "346,517,631,731,905,1020,1153,1273,1477,1578,1745,1861,2038,2183,2268,2352,2452"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,211,382,500,604,778,897,1034,1338,1542,1647,1814,1934,2111,2260,2349,2437",
+                        "endColumns": "105,170,117,103,173,118,136,123,203,104,166,119,176,148,88,87,103",
+                        "endOffsets": "206,377,495,599,773,892,1029,1153,1537,1642,1809,1929,2106,2255,2344,2432,2536"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\animeman\\Documents\\PlayServicesTutorial\\android\\build\\res\\values-ko\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2541",
+                        "endColumns": "74",
+                        "endOffsets": "2611"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\animeman\\.gradle\\caches\\transforms-3\\eae3a15abf67e1ecb17c60ce5bb7f428\\transformed\\jetified-play-services-basement-17.4.0\\res\\values-ko\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "179",
+                        "endOffsets": "426"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1158",
+                        "endColumns": "179",
+                        "endOffsets": "1333"
+                    }
+                }
+            ]
+        }
+    ]
+}

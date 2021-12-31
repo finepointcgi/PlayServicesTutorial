@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.finepointcgi.PlayServicesTutorial"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" > <!-- glEsVersion is modified by the exporter, changing this value here has no effect. -->
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <supports-screens
+11-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:12:5-16:40
+12        android:largeScreens="true"
+12-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:15:9-36
+13        android:normalScreens="true"
+13-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:14:9-37
+14        android:smallScreens="true"
+14-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:13:9-36
+15        android:xlargeScreens="true" />
+15-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:16:9-37
+16
+17    <uses-feature
+17-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\src\debug\AndroidManifest.xml:10:5-78
+18        android:glEsVersion="0x00030000"
+18-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\src\debug\AndroidManifest.xml:10:19-51
+19        android:required="true" />
+19-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\src\debug\AndroidManifest.xml:10:52-75
+20
+21    <instrumentation
+21-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\src\debug\AndroidManifest.xml:11:5-16:73
+22        android:name=".GodotInstrumentation"
+22-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\src\debug\AndroidManifest.xml:13:9-45
+23        android:icon="@mipmap/icon"
+23-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\src\debug\AndroidManifest.xml:14:9-36
+24        android:label="@string/godot_project_name_string"
+24-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\src\debug\AndroidManifest.xml:15:9-58
+25        android:targetPackage="org.finepointcgi.PlayServicesTutorial" />
+25-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\src\debug\AndroidManifest.xml:16:9-70
+26
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->[GodotPlayGamesServices.release.aar] C:\Users\animeman\.gradle\caches\transforms-3\c9d2e03fd8fde33266f490b5ade7c5fb\transformed\jetified-GodotPlayGamesServices.release\AndroidManifest.xml:11:5-67
+27-->[GodotPlayGamesServices.release.aar] C:\Users\animeman\.gradle\caches\transforms-3\c9d2e03fd8fde33266f490b5ade7c5fb\transformed\jetified-GodotPlayGamesServices.release\AndroidManifest.xml:11:22-64
+28
+29    <application
+29-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:31:5-87:19
+30        android:allowBackup="false"
+30-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:31:68-95
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.2.0] C:\Users\animeman\.gradle\caches\transforms-3\c5eaa7d939abb2d757f863a6b5340cdd\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:hasFragileUserData="false"
+33-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:31:118-152
+34        android:icon="@mipmap/icon"
+34-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:31:238-265
+35        android:isGame="true"
+35-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:31:96-117
+36        android:label="@string/godot_project_name_string"
+36-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:31:18-67
+37        android:requestLegacyExternalStorage="false" >
+37-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:31:153-197
+38        <activity
+38-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:59:9-81:20
+39            android:name="com.godot.game.GodotApp"
+39-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:60:13-37
+40            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
+40-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:66:13-141
+41            android:excludeFromRecents="false"
+41-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:64:13-47
+42            android:label="@string/godot_project_name_string"
+42-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:61:13-62
+43            android:launchMode="singleTask"
+43-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:63:13-44
+44            android:resizeableActivity="false"
+44-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:67:13-47
+45            android:screenOrientation="landscape"
+45-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:65:13-50
+46            android:theme="@style/GodotAppSplashTheme" >
+46-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:62:13-55
+47            <intent-filter>
+47-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:73:13-80:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:74:17-69
+48-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:74:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:75:17-77
+50-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:75:27-74
+51
+52                <!--
+53                Enable access to OpenXR on Oculus mobile devices, no-op on other Android
+54                platforms.
+55                -->
+56                <category android:name="com.oculus.intent.category.VR" />
+56-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:79:17-74
+56-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:79:27-71
+57            </intent-filter>
+58        </activity>
+59        <!-- Records the version of the Godot editor used for building -->
+60        <meta-data
+61            android:name="org.godotengine.editor.version"
+62            android:value="3.4.2.stable" />
+63        <meta-data
+63-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:53:9-54:42
+64            android:name="com.google.android.gms.games.APP_ID"
+64-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:53:20-70
+65            android:value="@string/app_id" />
+65-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:54:9-39
+66        <meta-data
+66-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:56:9-57:64
+67            android:name="com.google.android.gms.version"
+67-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:56:20-65
+68            android:value="@integer/google_play_services_version" /> <!-- Records the version of the Godot library -->
+68-->C:\Users\animeman\Documents\PlayServicesTutorial\android\build\AndroidManifest.xml:57:9-62
+69        <meta-data
+69-->[godot-lib.debug.aar] C:\Users\animeman\.gradle\caches\transforms-3\7d496d812684c77fc04000caf95fd2e1\transformed\jetified-godot-lib.debug\AndroidManifest.xml:19:9-21:44
+70            android:name="org.godotengine.library.version"
+70-->[godot-lib.debug.aar] C:\Users\animeman\.gradle\caches\transforms-3\7d496d812684c77fc04000caf95fd2e1\transformed\jetified-godot-lib.debug\AndroidManifest.xml:20:13-59
+71            android:value="3.4.2.stable" />
+71-->[godot-lib.debug.aar] C:\Users\animeman\.gradle\caches\transforms-3\7d496d812684c77fc04000caf95fd2e1\transformed\jetified-godot-lib.debug\AndroidManifest.xml:21:13-41
+72
+73        <service android:name="org.godotengine.godot.GodotDownloaderService" />
+73-->[godot-lib.debug.aar] C:\Users\animeman\.gradle\caches\transforms-3\7d496d812684c77fc04000caf95fd2e1\transformed\jetified-godot-lib.debug\AndroidManifest.xml:23:9-80
+73-->[godot-lib.debug.aar] C:\Users\animeman\.gradle\caches\transforms-3\7d496d812684c77fc04000caf95fd2e1\transformed\jetified-godot-lib.debug\AndroidManifest.xml:23:18-77
+74
+75        <meta-data
+75-->[GodotPlayGamesServices.release.aar] C:\Users\animeman\.gradle\caches\transforms-3\c9d2e03fd8fde33266f490b5ade7c5fb\transformed\jetified-GodotPlayGamesServices.release\AndroidManifest.xml:14:9-16:74
+76            android:name="org.godotengine.plugin.v1.GodotPlayGamesServices"
+76-->[GodotPlayGamesServices.release.aar] C:\Users\animeman\.gradle\caches\transforms-3\c9d2e03fd8fde33266f490b5ade7c5fb\transformed\jetified-GodotPlayGamesServices.release\AndroidManifest.xml:15:13-76
+77            android:value="io.cgisca.godot.gpgs.PlayGameServicesGodot" />
+77-->[GodotPlayGamesServices.release.aar] C:\Users\animeman\.gradle\caches\transforms-3\c9d2e03fd8fde33266f490b5ade7c5fb\transformed\jetified-GodotPlayGamesServices.release\AndroidManifest.xml:16:13-71
+78
+79        <activity
+79-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\animeman\.gradle\caches\transforms-3\b8ad2dc535e40ba8e20fb03513396669\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+80            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+80-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\animeman\.gradle\caches\transforms-3\b8ad2dc535e40ba8e20fb03513396669\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+81            android:excludeFromRecents="true"
+81-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\animeman\.gradle\caches\transforms-3\b8ad2dc535e40ba8e20fb03513396669\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\animeman\.gradle\caches\transforms-3\b8ad2dc535e40ba8e20fb03513396669\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+83-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\animeman\.gradle\caches\transforms-3\b8ad2dc535e40ba8e20fb03513396669\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+84        <!--
+85            Service handling Google Sign-In user revocation. For apps that do not integrate with
+86            Google Sign-In, this service will never be started.
+87        -->
+88        <service
+88-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\animeman\.gradle\caches\transforms-3\b8ad2dc535e40ba8e20fb03513396669\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+89            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+89-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\animeman\.gradle\caches\transforms-3\b8ad2dc535e40ba8e20fb03513396669\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+90            android:exported="true"
+90-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\animeman\.gradle\caches\transforms-3\b8ad2dc535e40ba8e20fb03513396669\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+91            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+91-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\animeman\.gradle\caches\transforms-3\b8ad2dc535e40ba8e20fb03513396669\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+92            android:visibleToInstantApps="true" />
+92-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\animeman\.gradle\caches\transforms-3\b8ad2dc535e40ba8e20fb03513396669\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\animeman\.gradle\caches\transforms-3\7ab765d62e7f9e6e62f4ab650b67973e\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\animeman\.gradle\caches\transforms-3\7ab765d62e7f9e6e62f4ab650b67973e\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\animeman\.gradle\caches\transforms-3\7ab765d62e7f9e6e62f4ab650b67973e\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\animeman\.gradle\caches\transforms-3\7ab765d62e7f9e6e62f4ab650b67973e\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+98    </application>
+99
+100</manifest>

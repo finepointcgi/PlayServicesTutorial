@@ -1,0 +1,209 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ServiceManager.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Login" type="Button" parent="."]
+margin_left = 48.0
+margin_top = 59.0
+margin_right = 459.0
+margin_bottom = 180.0
+text = "Log in"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TestAchevement" type="Button" parent="."]
+margin_left = 53.0
+margin_top = 219.0
+margin_right = 467.0
+margin_bottom = 338.0
+text = "Unlock Test Achevement"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IncAchevement" type="Button" parent="."]
+margin_left = 53.0
+margin_top = 358.0
+margin_right = 467.0
+margin_bottom = 477.0
+text = "Inc Test Achevement"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RevealTestAchevement" type="Button" parent="."]
+margin_left = 554.0
+margin_top = 57.0
+margin_right = 968.0
+margin_bottom = 176.0
+text = "Reveal Test Achevement"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ShowAchevements" type="Button" parent="."]
+margin_left = 49.0
+margin_top = 511.0
+margin_right = 463.0
+margin_bottom = 630.0
+text = "Show Achevements"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GetPlayerData" type="Button" parent="."]
+margin_left = 541.0
+margin_top = 358.0
+margin_right = 955.0
+margin_bottom = 477.0
+text = "Get Player Data"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GetPlayerStats" type="Button" parent="."]
+margin_left = 537.0
+margin_top = 511.0
+margin_right = 951.0
+margin_bottom = 630.0
+text = "Get Player Stats"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SaveSnapshot" type="Button" parent="."]
+margin_left = 49.0
+margin_top = 667.0
+margin_right = 463.0
+margin_bottom = 786.0
+text = "Save Snapshot"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GetSnapshot" type="Button" parent="."]
+margin_left = 541.0
+margin_top = 650.0
+margin_right = 955.0
+margin_bottom = 769.0
+text = "Get Snapshot"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ShowSnapshot" type="Button" parent="."]
+margin_left = 537.0
+margin_top = 803.0
+margin_right = 951.0
+margin_bottom = 922.0
+text = "Show Snapshot"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LoadAchievementInfo" type="Button" parent="."]
+margin_left = 544.0
+margin_top = 226.0
+margin_right = 958.0
+margin_bottom = 345.0
+text = "Load Achievement  Info"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Submit To Leaderboard" type="Button" parent="."]
+margin_left = 1017.0
+margin_top = 56.0
+margin_right = 1431.0
+margin_bottom = 175.0
+text = "Submit To Leaderboard"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ShowLeaderboard" type="Button" parent="."]
+margin_left = 1017.0
+margin_top = 220.0
+margin_right = 1431.0
+margin_bottom = 339.0
+text = "Show Leaderboard"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SubmitEvent" type="Button" parent="."]
+margin_left = 1466.0
+margin_top = 56.0
+margin_right = 1880.0
+margin_bottom = 175.0
+text = "Submit Event"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LoadEvent" type="Button" parent="."]
+margin_left = 1466.0
+margin_top = 220.0
+margin_right = 1880.0
+margin_bottom = 339.0
+text = "Load Event"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlayerStats" type="RichTextLabel" parent="."]
+margin_left = 560.0
+margin_top = 661.0
+margin_right = 845.0
+margin_bottom = 859.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlayerData" type="RichTextLabel" parent="."]
+margin_left = 1007.0
+margin_top = 379.0
+margin_right = 1372.0
+margin_bottom = 661.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 1470.0
+margin_top = 361.0
+margin_right = 1639.0
+margin_bottom = 528.0
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Saved Data" type="RichTextLabel" parent="."]
+margin_left = 58.0
+margin_top = 813.0
+margin_right = 477.0
+margin_bottom = 914.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="button_down" from="Login" to="." method="_on_Login_button_down"]
+[connection signal="button_down" from="TestAchevement" to="." method="_on_TestAchevement_button_down"]
+[connection signal="button_down" from="IncAchevement" to="." method="_on_IncAchevement_button_down"]
+[connection signal="button_down" from="RevealTestAchevement" to="." method="_on_RevealTestAchevement_button_down"]
+[connection signal="button_down" from="ShowAchevements" to="." method="_on_ShowAchevements_button_down"]
+[connection signal="button_down" from="GetPlayerData" to="." method="_on_GetPlayerData_button_down"]
+[connection signal="button_down" from="GetPlayerStats" to="." method="_on_GetPlayerStats_button_down"]
+[connection signal="button_down" from="SaveSnapshot" to="." method="_on_SaveSnapshot_button_down"]
+[connection signal="button_down" from="GetSnapshot" to="." method="_on_GetSnapshot_button_down"]
+[connection signal="button_down" from="ShowSnapshot" to="." method="_on_ShowSnapshot_button_down"]
+[connection signal="button_down" from="LoadAchievementInfo" to="." method="_on_LoadAchievementInfo_button_down"]
+[connection signal="button_down" from="Submit To Leaderboard" to="." method="_on_Submit_To_Leaderboard_button_down"]
+[connection signal="button_down" from="ShowLeaderboard" to="." method="_on_ShowLeaderboard_button_down"]
+[connection signal="button_down" from="SubmitEvent" to="." method="_on_SubmitEvent_button_down"]
+[connection signal="button_down" from="LoadEvent" to="." method="_on_LoadEvent_button_down"]
